@@ -57,13 +57,15 @@ github.com/Microsoft/hcsshim/pkg/ociwclayer
 # github.com/awslabs/soci-snapshotter v0.3.0
 ## explicit; go 1.18
 github.com/awslabs/soci-snapshotter/fs/source
-# github.com/cilium/ebpf v0.9.1
-## explicit; go 1.17
+# github.com/cilium/ebpf v0.11.0
+## explicit; go 1.19
 github.com/cilium/ebpf
 github.com/cilium/ebpf/asm
 github.com/cilium/ebpf/btf
 github.com/cilium/ebpf/internal
+github.com/cilium/ebpf/internal/kconfig
 github.com/cilium/ebpf/internal/sys
+github.com/cilium/ebpf/internal/tracefs
 github.com/cilium/ebpf/internal/unix
 github.com/cilium/ebpf/link
 # github.com/compose-spec/compose-go v1.17.0
@@ -345,7 +347,7 @@ github.com/fatih/color
 # github.com/fluent/fluent-logger-golang v1.9.0
 ## explicit
 github.com/fluent/fluent-logger-golang/fluent
-# github.com/frankban/quicktest v1.14.2
+# github.com/frankban/quicktest v1.14.5
 ## explicit; go 1.13
 # github.com/go-logr/logr v1.2.4
 ## explicit; go 1.16
@@ -615,6 +617,7 @@ golang.org/x/crypto/sha3
 # golang.org/x/exp v0.0.0-20230713183714-613f0c0eb8a1
 ## explicit; go 1.20
 golang.org/x/exp/constraints
+golang.org/x/exp/maps
 golang.org/x/exp/slices
 # golang.org/x/mod v0.11.0
 ## explicit; go 1.17
